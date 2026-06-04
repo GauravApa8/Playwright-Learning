@@ -1,0 +1,20 @@
+[
+  {
+    "testCase": "Valid Login",
+    "username": "student",
+    "password": "Password123",
+    "expected": "success"
+  },
+  {
+    "testCase": "Wrong Password",
+    "username": "student",
+    "password": "wrongPassword",
+    "expected": "failure"
+  },
+  {
+    "testCase": "Wrong Username",
+    "username": "wrongUser",
+    "password": "Password123",
+    "expected": "failure"
+  }
+]
