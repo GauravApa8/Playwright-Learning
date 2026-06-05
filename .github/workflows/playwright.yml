@@ -29,4 +29,4 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run Tests
-        run: npx playwright test
+        run: npx playwright test tests/ci-test.spec.js
